@@ -1411,7 +1411,7 @@ void scheduler_unit::cycle() {
                       exec_unit_type_t::SPECIALIZED;
                 }
               }
-              if(!issued_inst){
+              else{
                 Xalu++;///////////////////////////////////
                 Xalu_total++;////////////////////////////////
               }
@@ -1458,7 +1458,7 @@ void scheduler_unit::cycle() {
       // you find the right warp_id
       Not_Checked_Warps++;
       printf("Not checked warps\n");
-      
+
       for (std::vector<shd_warp_t *>::const_iterator supervised_iter =
                m_supervised_warps.begin();
            supervised_iter != m_supervised_warps.end(); ++supervised_iter) {
