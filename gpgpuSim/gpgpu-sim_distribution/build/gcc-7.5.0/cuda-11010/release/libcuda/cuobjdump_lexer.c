@@ -1,6 +1,6 @@
-#line 2 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
+#line 2 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
 
-#line 4 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
+#line 4 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -1158,9 +1158,9 @@ static const flex_int32_t yy_rule_can_match_eol[37] =
 void cuobjdump_error(yyscan_t yyscanner, struct cuobjdump_parser* parser, std::list<cuobjdumpSection*> &cuobjdumpSectionList, const char* msg);
 #define YY_DECL int cuobjdump_lex \
 	       (YYSTYPE * yylval_param , yyscan_t yyscanner, struct cuobjdump_parser* parser, std::list<cuobjdumpSection*> &cuobjdumpSectionList)
-#line 1162 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
+#line 1162 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
 
-#line 1164 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
+#line 1164 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
 
 #define INITIAL 0
 #define ptxcode 1
@@ -1451,7 +1451,7 @@ YY_DECL
 
 
 
-#line 1455 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
+#line 1455 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -1746,7 +1746,7 @@ YY_RULE_SETUP
 #line 161 "cuobjdump.l"
 ECHO;
 	YY_BREAK
-#line 1750 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
+#line 1750 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_lexer.c"
 
 	case YY_END_OF_BUFFER:
 		{

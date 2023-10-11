@@ -1,6 +1,6 @@
-#line 2 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
+#line 2 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
 
-#line 4 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
+#line 4 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -479,8 +479,8 @@ extern int config_input(char *, int);
 #undef YY_INPUT
 #define YY_INPUT(b, r, ms) (r = config_input(b, ms))
 
-#line 483 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
-#line 484 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
+#line 483 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
+#line 484 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
 
 #define INITIAL 0
 
@@ -703,7 +703,7 @@ YY_DECL
 #line 24 "config.l"
    /* Ignore comments and all spaces */
 
-#line 707 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
+#line 707 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -812,7 +812,7 @@ YY_RULE_SETUP
 #line 45 "config.l"
 ECHO;
 	YY_BREAK
-#line 816 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
+#line 816 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 

@@ -1,6 +1,6 @@
-#line 2 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
+#line 2 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
 
-#line 4 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
+#line 4 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -857,8 +857,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	   ptxinfo->col+=strlen(yytext);
 #define YY_DECL int ptxinfo_lex \
 	       (YYSTYPE * yylval_param , yyscan_t yyscanner, ptxinfo_data* ptxinfo)
-#line 861 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
-#line 862 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
+#line 861 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
+#line 862 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
 
 #define INITIAL 0
 
@@ -1134,7 +1134,7 @@ YY_DECL
 	{
 #line 53 "ptxinfo.l"
 
-#line 1138 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
+#line 1138 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -1365,7 +1365,7 @@ YY_RULE_SETUP
 #line 89 "ptxinfo.l"
 ECHO;
 	YY_BREAK
-#line 1369 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
+#line 1369 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/lex.ptxinfo_.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 

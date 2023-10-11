@@ -81,7 +81,7 @@ void config_assign_float( char const * field, double value );
 #endif
 
 
-#line 85 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
+#line 85 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -114,8 +114,8 @@ void config_assign_float( char const * field, double value );
 
 /* Use api.header.include to #include this header
    instead of duplicating it here.  */
-#ifndef YY_YY_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED
-# define YY_YY_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED
+#ifndef YY_YY_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED
+# define YY_YY_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -149,7 +149,7 @@ union YYSTYPE
   int    num;
   double fnum;
 
-#line 153 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
+#line 153 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -162,7 +162,7 @@ extern YYSTYPE yylval;
 
 int yyparse (void);
 
-#endif /* !YY_YY_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED  */
+#endif /* !YY_YY_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED  */
 
 
 
@@ -1317,23 +1317,23 @@ yyreduce:
   case 4:
 #line 32 "config.y"
                             { config_assign_string( (yyvsp[-3].name), (yyvsp[-1].name) ); free( (yyvsp[-3].name) ); free( (yyvsp[-1].name) ); }
-#line 1321 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
+#line 1321 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
     break;
 
   case 5:
 #line 33 "config.y"
                             { config_assign_int( (yyvsp[-3].name), (yyvsp[-1].num) ); free( (yyvsp[-3].name) ); }
-#line 1327 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
+#line 1327 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
     break;
 
   case 6:
 #line 34 "config.y"
                             { config_assign_float( (yyvsp[-3].name), (yyvsp[-1].fnum) ); free( (yyvsp[-3].name) ); }
-#line 1333 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
+#line 1333 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
     break;
 
 
-#line 1337 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
+#line 1337 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.c"
 
       default: break;
     }

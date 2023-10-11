@@ -76,7 +76,7 @@
 typedef void * yyscan_t;
 #include "ptx_loader.h"
 
-#line 80 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 80 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -109,8 +109,8 @@ typedef void * yyscan_t;
 
 /* Use api.header.include to #include this header
    instead of duplicating it here.  */
-#ifndef YY_PTXINFO_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTXINFO_TAB_H_INCLUDED
-# define YY_PTXINFO_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTXINFO_TAB_H_INCLUDED
+#ifndef YY_PTXINFO_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTXINFO_TAB_H_INCLUDED
+# define YY_PTXINFO_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTXINFO_TAB_H_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -163,7 +163,7 @@ union YYSTYPE
   int    int_value;
   char * string_value;
 
-#line 167 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 167 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -175,7 +175,7 @@ typedef union YYSTYPE YYSTYPE;
 
 int ptxinfo_parse (yyscan_t scanner, ptxinfo_data* ptxinfo);
 
-#endif /* !YY_PTXINFO_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTXINFO_TAB_H_INCLUDED  */
+#endif /* !YY_PTXINFO_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTXINFO_TAB_H_INCLUDED  */
 
 /* Second part of user prologue.  */
 #line 74 "ptxinfo.y"
@@ -196,7 +196,7 @@ int ptxinfo_parse (yyscan_t scanner, ptxinfo_data* ptxinfo);
 	void ptxinfo_linenum( unsigned );
 	void ptxinfo_dup_type( const char* );
 
-#line 200 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 200 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
 
 
 #ifdef short
@@ -1400,113 +1400,113 @@ yyreduce:
   case 6:
 #line 100 "ptxinfo.y"
                          { printf("GPGPU-Sim: ptxas %s\n", (yyvsp[0].string_value)); }
-#line 1404 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1404 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 7:
 #line 101 "ptxinfo.y"
                                                                                  { ptxinfo_linenum((yyvsp[-3].int_value)); }
-#line 1410 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1410 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 10:
 #line 106 "ptxinfo.y"
                         { ptxinfo->ptxinfo_addinfo(); }
-#line 1416 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1416 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 12:
 #line 110 "ptxinfo.y"
                                             { ptxinfo_function((yyvsp[-1].string_value)); }
-#line 1422 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1422 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 13:
 #line 111 "ptxinfo.y"
                                                                   { ptxinfo_function((yyvsp[-5].string_value)); }
-#line 1428 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1428 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 17:
 #line 121 "ptxinfo.y"
                                 { ptxinfo_regs((yyvsp[-1].int_value)); }
-#line 1434 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1434 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 18:
 #line 122 "ptxinfo.y"
                      { ptxinfo_lmem(g_declared,g_system); }
-#line 1440 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1440 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 19:
 #line 123 "ptxinfo.y"
                      { ptxinfo_smem(g_declared,g_system); }
-#line 1446 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1446 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 20:
 #line 124 "ptxinfo.y"
                                                                                       { ptxinfo_cmem((yyvsp[-5].int_value),(yyvsp[-1].int_value)); }
-#line 1452 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1452 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 21:
 #line 125 "ptxinfo.y"
                                  { ptxinfo_gmem((yyvsp[-2].int_value),0); }
-#line 1458 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1458 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 22:
 #line 126 "ptxinfo.y"
                                  { ptxinfo_lmem((yyvsp[-2].int_value),0); }
-#line 1464 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1464 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 23:
 #line 127 "ptxinfo.y"
                                  { ptxinfo_smem((yyvsp[-2].int_value),0); }
-#line 1470 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1470 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 24:
 #line 128 "ptxinfo.y"
                                  { ptxinfo_cmem((yyvsp[-2].int_value),0); }
-#line 1476 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1476 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 25:
 #line 129 "ptxinfo.y"
                            { ptxinfo_regs((yyvsp[-1].int_value)); }
-#line 1482 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1482 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 26:
 #line 130 "ptxinfo.y"
                                {}
-#line 1488 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1488 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 27:
 #line 133 "ptxinfo.y"
                                           { g_declared=(yyvsp[-3].int_value); g_system=(yyvsp[-1].int_value); }
-#line 1494 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1494 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 28:
 #line 135 "ptxinfo.y"
                                                 { ptxinfo_dup_type((yyvsp[-3].string_value)); }
-#line 1500 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1500 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
   case 29:
 #line 136 "ptxinfo.y"
                                           { ptxinfo_dup_type((yyvsp[-3].string_value)); }
-#line 1506 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1506 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
     break;
 
 
-#line 1510 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
+#line 1510 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptxinfo.tab.c"
 
       default: break;
     }

@@ -1,6 +1,6 @@
-#line 2 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
+#line 2 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
 
-#line 4 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
+#line 4 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
 
 #define  YY_INT_ALIGNED short int
 
@@ -999,9 +999,9 @@ char *yytext;
 #define yylval elf_lval
 
 void elf_error(const char*);
-#line 1003 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
+#line 1003 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
 
-#line 1005 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
+#line 1005 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
 
 #define INITIAL 0
 #define cmem 1
@@ -1222,7 +1222,7 @@ YY_DECL
 #line 54 "elf.l"
 
 
-#line 1226 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
+#line 1226 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -1436,7 +1436,7 @@ YY_RULE_SETUP
 #line 133 "elf.l"
 ECHO;
 	YY_BREAK
-#line 1440 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
+#line 1440 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/elf_lexer.cc"
 
 	case YY_END_OF_BUFFER:
 		{

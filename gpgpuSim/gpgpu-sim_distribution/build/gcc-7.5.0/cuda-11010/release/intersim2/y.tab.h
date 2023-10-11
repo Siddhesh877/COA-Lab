@@ -34,8 +34,8 @@
 /* Undocumented macros, especially those whose name start with YY_,
    are private implementation details.  Do not rely on them.  */
 
-#ifndef YY_YY_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED
-# define YY_YY_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED
+#ifndef YY_YY_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED
+# define YY_YY_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -69,7 +69,7 @@ union YYSTYPE
   int    num;
   double fnum;
 
-#line 73 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.h"
+#line 73 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/intersim2/y.tab.h"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -82,4 +82,4 @@ extern YYSTYPE yylval;
 
 int yyparse (void);
 
-#endif /* !YY_YY_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED  */
+#endif /* !YY_YY_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_INTERSIM2_Y_TAB_H_INCLUDED  */

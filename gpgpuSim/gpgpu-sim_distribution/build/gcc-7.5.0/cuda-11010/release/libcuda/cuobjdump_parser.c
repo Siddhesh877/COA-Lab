@@ -85,7 +85,7 @@ void setCuobjdumpptxfilename(const char* filename, std::list<cuobjdumpSection*> 
 void setCuobjdumpelffilename(const char* filename, std::list<cuobjdumpSection*> &cuobjdumpSectionList);
 void setCuobjdumpsassfilename(const char* filename, std::list<cuobjdumpSection*> &cuobjdumpSectionList);
 
-#line 89 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 89 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -118,8 +118,8 @@ void setCuobjdumpsassfilename(const char* filename, std::list<cuobjdumpSection*>
 
 /* Use api.header.include to #include this header
    instead of duplicating it here.  */
-#ifndef YY_CUOBJDUMP_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_LIBCUDA_CUOBJDUMP_PARSER_H_INCLUDED
-# define YY_CUOBJDUMP_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_LIBCUDA_CUOBJDUMP_PARSER_H_INCLUDED
+#ifndef YY_CUOBJDUMP_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_LIBCUDA_CUOBJDUMP_PARSER_H_INCLUDED
+# define YY_CUOBJDUMP_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_LIBCUDA_CUOBJDUMP_PARSER_H_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 1
@@ -164,7 +164,7 @@ union YYSTYPE
 
 	char* string_value;
 
-#line 168 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 168 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -176,7 +176,7 @@ typedef union YYSTYPE YYSTYPE;
 
 int cuobjdump_parse (yyscan_t scanner, struct cuobjdump_parser* parser, std::list<cuobjdumpSection*> &cuobjdumpSectionList);
 
-#endif /* !YY_CUOBJDUMP_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_LIBCUDA_CUOBJDUMP_PARSER_H_INCLUDED  */
+#endif /* !YY_CUOBJDUMP_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_LIBCUDA_CUOBJDUMP_PARSER_H_INCLUDED  */
 
 /* Second part of user prologue.  */
 #line 53 "cuobjdump.y"
@@ -184,7 +184,7 @@ int cuobjdump_parse (yyscan_t scanner, struct cuobjdump_parser* parser, std::lis
 int yylex(YYSTYPE * yylval_param, yyscan_t yyscanner, struct cuobjdump_parser* parser, std::list<cuobjdumpSection*> &cuobjdumpSectionList);
 void yyerror(yyscan_t yyscanner, struct cuobjdump_parser* parser, std::list<cuobjdumpSection*> &cuobjdumpSectionList, const char* msg);
 
-#line 188 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 188 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
 
 
 #ifdef short
@@ -1382,7 +1382,7 @@ yyreduce:
   case 2:
 #line 72 "cuobjdump.y"
                 {printf("######### cuobjdump parser ########\n");}
-#line 1386 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1386 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 7:
@@ -1393,7 +1393,7 @@ yyreduce:
 				parser->ptxfile = fopen(parser->filename, "w");
 				setCuobjdumpptxfilename(parser->filename, cuobjdumpSectionList);
 			}
-#line 1397 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1397 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 8:
@@ -1401,7 +1401,7 @@ yyreduce:
                                                                           {
 				fclose(parser->ptxfile);
 			}
-#line 1405 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1405 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 9:
@@ -1412,7 +1412,7 @@ yyreduce:
 				parser->elffile = fopen(parser->filename, "w");
 				setCuobjdumpelffilename(parser->filename, cuobjdumpSectionList);
 			}
-#line 1416 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1416 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 10:
@@ -1423,7 +1423,7 @@ yyreduce:
 				parser->sassfile = fopen(parser->filename, "w");
 				setCuobjdumpsassfilename(parser->filename, cuobjdumpSectionList);
 			}
-#line 1427 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1427 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 11:
@@ -1431,53 +1431,53 @@ yyreduce:
                                    { 
 				fclose(parser->sassfile);
 			}
-#line 1435 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1435 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 12:
 #line 106 "cuobjdump.y"
                                                           {setCuobjdumparch((yyvsp[-12].string_value), cuobjdumpSectionList);}
-#line 1441 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1441 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 13:
 #line 112 "cuobjdump.y"
                                                          {setCuobjdumparch((yyvsp[-12].string_value), cuobjdumpSectionList);}
-#line 1447 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1447 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 14:
 #line 114 "cuobjdump.y"
                                               {setCuobjdumpidentifier((yyvsp[-1].string_value), cuobjdumpSectionList);}
-#line 1453 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1453 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 15:
 #line 115 "cuobjdump.y"
                                 {setCuobjdumpidentifier("default", cuobjdumpSectionList);}
-#line 1459 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1459 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 18:
 #line 120 "cuobjdump.y"
                                 {fprintf(parser->ptxfile, "%s", (yyvsp[0].string_value));}
-#line 1465 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1465 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 20:
 #line 123 "cuobjdump.y"
                                 {fprintf(parser->elffile, "%s", (yyvsp[0].string_value));}
-#line 1471 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1471 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
   case 22:
 #line 126 "cuobjdump.y"
                                   {fprintf(parser->sassfile, "%s", (yyvsp[0].string_value));}
-#line 1477 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1477 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
     break;
 
 
-#line 1481 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
+#line 1481 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/libcuda/cuobjdump_parser.c"
 
       default: break;
     }

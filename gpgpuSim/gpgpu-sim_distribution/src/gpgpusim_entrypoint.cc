@@ -14,6 +14,22 @@
 // used to endorse or promote products derived from this software without
 // specific prior written permission.
 //
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND// Copyright (c) 2009-2011, Tor M. Aamodt, Wilson W.L. Fung, Ivan Sham,
+// Andrew Turner, Ali Bakhoda, The University of British Columbia
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions are met:
+//
+// Redistributions of source code must retain the above copyright notice, this
+// list of conditions and the following disclaimer.
+// Redistributions in binary form must reproduce the above copyright notice,
+// this list of conditions and the following disclaimer in the documentation
+// and/or other materials provided with the distribution. Neither the name of
+// The University of British Columbia nor the names of its contributors may be
+// used to endorse or promote products derived from this software without
+// specific prior written permission.
+//
 // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
 // AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
 // IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
@@ -37,6 +53,7 @@
 #include "gpgpu-sim/icnt_wrapper.h"
 #include "option_parser.h"
 #include "stream_manager.h"
+#include "warp_counters.h"
 
 #define MAX(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -70,6 +87,24 @@ void *gpgpu_sim_thread_sequential(void *ctx_ptr) {
 static void termination_callback() {
   printf("GPGPU-Sim: *** exit detected ***\n");
   fflush(stdout);
+  std::printf("__________________To search for modifications search 'COA' in shader.cc file____________________\n");
+  std::printf("---------------------------------------Result--------------------------------------\n");
+  std::printf("ISSUED:    %llu\n", (warp_state_counters[ISSUED]));
+  std::printf("WAITING_CONTROL_HAZARD:   %llu\n", (warp_state_counters[WAITING_CONTROL_HAZARD]));
+  std::printf("WAITING_DATA_HAZARD:   %llu\n", (warp_state_counters[WAITING_DATA_HAZARD]));
+  std::printf("WAITING_DIVERGENCE:   %llu\n", (warp_state_counters[WAITING_DIVERGENCE]));
+  std::printf("XMEM:      %llu\n", (warp_state_counters[XMEM]));
+  std::printf("XALU_INT_SP:      %llu\n", (warp_state_counters[XALU_INT]));
+  std::printf("XALU_SFU:      %llu\n", (warp_state_counters[XALU_SFU]));
+  std::printf("XALU_TENSOR_CORE:      %llu\n", (warp_state_counters[XALU_TENSOR_CORE]));
+  std::printf("XALU_DP:      %llu\n", (warp_state_counters[XALU_DP]));
+  std::printf("XALU_SPEC:      %llu\n", (warp_state_counters[XALU_SP]));
+  std::printf("OTHER:     %llu\n", (warp_state_counters[OTHER]));
+  std::printf("XALU TOTAL:      %llu\n", (warp_state_counters[XALU_INT] + warp_state_counters[XALU_SFU] + warp_state_counters[XALU_TENSOR_CORE] + warp_state_counters[XALU_DP] + warp_state_counters[XALU_SP]));
+  std::printf("WAITING TOTAL:   %llu\n", (warp_state_counters[WAITING_CONTROL_HAZARD] + warp_state_counters[WAITING_DATA_HAZARD] + warp_state_counters[WAITING_DIVERGENCE]));
+  std::printf("PIPELINE_CYCLE:     %llu\n", (warp_state_counters[PIPELINE_CYCLE]));
+  std::printf("TOTAL:     %llu\n", (warp_state_counters[TOTAL]));
+  
 }
 
 void *gpgpu_sim_thread_concurrent(void *ctx_ptr) {
@@ -289,3 +324,4 @@ int cuda_sim::gpgpu_opencl_ptx_sim_main_func(kernel_info_t *grid) {
   gpgpu_cuda_ptx_sim_main_func(*grid, true);
   return 0;
 }
+//  CONTRIBUTORS "AS IS"222

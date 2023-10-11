@@ -1,6 +1,6 @@
-#line 2 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
+#line 2 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
 
-#line 4 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
+#line 4 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
 
 #define  YY_INT_ALIGNED short int
 
@@ -823,9 +823,9 @@ char *yytext;
 
 void header_error(const char*);
 extern void output(const char * text);
-#line 827 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
+#line 827 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
 /*Regular expresions go here*/
-#line 829 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
+#line 829 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
 
 #define INITIAL 0
 
@@ -1046,7 +1046,7 @@ YY_DECL
 	/*Translation rules*/
 
 	/*Compiler directives*/
-#line 1050 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
+#line 1050 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -1245,7 +1245,7 @@ YY_RULE_SETUP
 #line 118 "header.l"
 ECHO;
 	YY_BREAK
-#line 1249 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
+#line 1249 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_lexer.cc"
 
 	case YY_END_OF_BUFFER:
 		{

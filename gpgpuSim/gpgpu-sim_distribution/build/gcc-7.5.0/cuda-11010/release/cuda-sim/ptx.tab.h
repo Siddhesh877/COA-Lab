@@ -34,8 +34,8 @@
 /* Undocumented macros, especially those whose name start with YY_,
    are private implementation details.  Do not rely on them.  */
 
-#ifndef YY_PTX_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTX_TAB_H_INCLUDED
-# define YY_PTX_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTX_TAB_H_INCLUDED
+#ifndef YY_PTX_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTX_TAB_H_INCLUDED
+# define YY_PTX_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTX_TAB_H_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -237,7 +237,7 @@ union YYSTYPE
   char * string_value;
   void * ptr_value;
 
-#line 241 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptx.tab.h"
+#line 241 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuda-sim/ptx.tab.h"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -249,4 +249,4 @@ typedef union YYSTYPE YYSTYPE;
 
 int ptx_parse (yyscan_t scanner, ptx_recognizer* recognizer);
 
-#endif /* !YY_PTX_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTX_TAB_H_INCLUDED  */
+#endif /* !YY_PTX_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUDA_SIM_PTX_TAB_H_INCLUDED  */

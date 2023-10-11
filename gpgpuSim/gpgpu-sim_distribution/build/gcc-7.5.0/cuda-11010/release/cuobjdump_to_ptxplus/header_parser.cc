@@ -84,7 +84,7 @@ void yyerror(const char*);
 extern cuobjdumpInstList *g_headerList;
 extern void output(const char * text);
 
-#line 88 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 88 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -117,8 +117,8 @@ extern void output(const char * text);
 
 /* Use api.header.include to #include this header
    instead of duplicating it here.  */
-#ifndef YY_HEADER_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUOBJDUMP_TO_PTXPLUS_HEADER_PARSER_HH_INCLUDED
-# define YY_HEADER_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUOBJDUMP_TO_PTXPLUS_HEADER_PARSER_HH_INCLUDED
+#ifndef YY_HEADER_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUOBJDUMP_TO_PTXPLUS_HEADER_PARSER_HH_INCLUDED
+# define YY_HEADER_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUOBJDUMP_TO_PTXPLUS_HEADER_PARSER_HH_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 1
@@ -160,7 +160,7 @@ union YYSTYPE
   char * string_value;
   void * ptr_value;
 
-#line 164 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 164 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -173,7 +173,7 @@ extern YYSTYPE header_lval;
 
 int header_parse (void);
 
-#endif /* !YY_HEADER_HOME_SIDDHESH_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUOBJDUMP_TO_PTXPLUS_HEADER_PARSER_HH_INCLUDED  */
+#endif /* !YY_HEADER_HOME_SIDDHESH_COA_LAB_COA_LAB_GPGPUSIM_GPGPU_SIM_DISTRIBUTION_BUILD_GCC_7_5_0_CUDA_11010_RELEASE_CUOBJDUMP_TO_PTXPLUS_HEADER_PARSER_HH_INCLUDED  */
 
 
 
@@ -1347,119 +1347,119 @@ yyreduce:
   case 2:
 #line 73 "header.y"
                                                 { output("No parsing errors\n");  }
-#line 1351 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1351 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 3:
 #line 76 "header.y"
                                                 { output("\n"); }
-#line 1357 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1357 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 4:
 #line 77 "header.y"
                                                 { output("\n"); }
-#line 1363 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1363 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 5:
 #line 80 "header.y"
                                                         {}
-#line 1369 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1369 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 6:
 #line 81 "header.y"
                                                                 {}
-#line 1375 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1375 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 7:
 #line 82 "header.y"
                                                                                         {}
-#line 1381 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1381 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 8:
 #line 85 "header.y"
                                         { output(".version"); cuobjdumpInst *instEntry = new cuobjdumpInst(); instEntry->setBase(".version"); g_headerList->add(instEntry);}
-#line 1387 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1387 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 9:
 #line 86 "header.y"
                                         { output(".target"); cuobjdumpInst *instEntry = new cuobjdumpInst(); instEntry->setBase(".target"); g_headerList->add(instEntry);}
-#line 1393 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1393 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 10:
 #line 87 "header.y"
                                         { output(".entry"); cuobjdumpInst *instEntry = new cuobjdumpInst(); instEntry->setBase(".entry"); g_headerList->add(instEntry);}
-#line 1399 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1399 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 11:
 #line 90 "header.y"
                                                 { output(" "); output((yyvsp[0].string_value)); g_headerList->getListEnd().addOperand((yyvsp[0].string_value)); }
-#line 1405 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1405 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 12:
 #line 91 "header.y"
                                                 { output(" "); output((yyvsp[0].string_value)); g_headerList->getListEnd().addOperand((yyvsp[0].string_value)); }
-#line 1411 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1411 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 15:
 #line 98 "header.y"
                                                 { output(" "); output((yyvsp[0].string_value)); g_headerList->getListEnd().addOperand((yyvsp[0].string_value));}
-#line 1417 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1417 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 16:
 #line 101 "header.y"
                                 { output("\n.param"); cuobjdumpInst *instEntry = new cuobjdumpInst(); instEntry->setBase(".param"); g_headerList->add(instEntry); }
-#line 1423 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1423 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 17:
 #line 104 "header.y"
                                         { output(".u64"); g_headerList->getListEnd().addTypeModifier(".u64");}
-#line 1429 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1429 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 18:
 #line 105 "header.y"
                                         { output(".u32"); g_headerList->getListEnd().addTypeModifier(".u32");}
-#line 1435 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1435 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 19:
 #line 106 "header.y"
                                         { output(".u16"); g_headerList->getListEnd().addTypeModifier(".u16");}
-#line 1441 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1441 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 20:
 #line 107 "header.y"
                                         { output(".b32"); g_headerList->getListEnd().addTypeModifier(".b32");}
-#line 1447 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1447 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 21:
 #line 108 "header.y"
                                         { output(".f32"); g_headerList->getListEnd().addTypeModifier(".f32");}
-#line 1453 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1453 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
   case 22:
 #line 111 "header.y"
                                 { output(" "); output((yyvsp[0].string_value)); g_headerList->getListEnd().addOperand((yyvsp[0].string_value)); }
-#line 1459 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1459 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
     break;
 
 
-#line 1463 "/home/siddhesh/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
+#line 1463 "/home/siddhesh/COA_LAB/COA-Lab/gpgpuSim/gpgpu-sim_distribution/build/gcc-7.5.0/cuda-11010/release/cuobjdump_to_ptxplus/header_parser.cc"
 
       default: break;
     }
